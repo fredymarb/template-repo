@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log(\"Hello world\");\n\n//# sourceURL=webpack://blur/./src/index.js?");
+eval("/**\n * @param {string} name\n * @returns {string}\n */\nfunction sayHello(name) {\n\treturn \"Hello, \" + name;\n}\n\nconsole.log(sayHello(\"Marbell\"));\n\n\n//# sourceURL=webpack://blur/./src/index.js?");
 
 /***/ })
 
